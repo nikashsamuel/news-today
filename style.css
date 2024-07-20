@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;padding: 0;
+}
+
+
+.q1 {
+    background-image: url(https://images.hindustantimes.com/img/2024/07/18/550x309/One-of-the-accused-was-staying-on-the-42nd-floor-o_1711739684795_1721297712642.jpg)  ;
+}
+.q2{
+    background-image: url(https://images.hindustantimes.com/img/2024/07/18/550x309/modi-kharge-pti_1707381875587_1721305933538.jpeg);
+}.q3{
+    background-image: url(https://images.hindustantimes.com/img/2024/07/18/550x309/Vance_1721306303845_1721306308205.jpg);
+}
+.q4{
+    background-image: url(https://images.hindustantimes.com/img/2024/07/18/550x309/Asif_Ali_paper_boat_1721297659244_1721297668781.jpg);
+}
+.q5{
+    background-image: url(https://images.hindustantimes.com/img/2024/07/18/550x309/egypt-man-7-wonders-of-world-GWR_1721305580502_1721305593155.jpg);
+}
+.q6{
+    background-image: url(https://images.hindustantimes.com/img/2024/07/18/550x309/4e5c0bdb-8d42-4c92-bfd4-3a480f7378b3_1721297863268_1721297869609.jpg);
+}
+.q7{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCBWuL2uv5OHqRBhRyJ6lW3cgaKsN7yl98Ww&s);
+}
+
+
+
+a {color: rgb(99, 10, 10);  }
+
+.container  {
+    display: grid; grid-template-columns: repeat(4,1fr); gap: 10px;
+   
+} 
+div{
+    height: 300px; width: 300px; margin-left: 5%;  margin-top: 5%;  
+ }
+.container > div  
+{     
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+  background-position: fixed;
+   background-size: cover ;
+   background-repeat: no-repeat; 
+   cursor: pointer;  
+ }
+*{
+    margin: 0;padding: 0; color: rgb(0, 0, 0)  
+}
+body{
+    background-color: rgb(240, 233, 233); 
+}
+.container > div:hover{
+    opacity: 0.8; transform:scale(0.98)
+}
+
+a{
+    color: white; font-size: x-large; text-decoration: none;
+}
+h2 {
+    text-decoration: underline; font-size: xx-large; margin-top: 60%; background-color: rgba(232, 237, 241, 0.253);
+}
+p :hover{
+    background-color:black ; line-clamp: 100%;
+}
+
+.container > div :nth-of-type(1){
+    grid-column: 1/3;
+}
